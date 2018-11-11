@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Italiana", serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 900px;
+}
+.page-nav {
+  padding: 80px 0;
+}
+.site-navigation {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.site-navigation li {
+  display: inline-block;
+}
+.site-navigation li:not(:last-child) {
+  margin-right: 120px;
+}
+.list-item:hover,
+.list-item:focus {
+  color: #46c0f7;
+}
+.list-item {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+}
+.commentPhoto {
+  text-transform: uppercase;
+}
+.page-main-section {
+  width: 420px;
+  margin: 0 0 140px 0;
+  padding: 0px;
+  display: inline-block;
+}
+.page-main-section:not(:nth-child(2n)) {
+  margin-right: 60px;
+}
+.page-main-section p {
+  font-size: 14px;
+}
+.page-main-section h3 {
+  font-size: 30px;
+}
+.page-main {
+  font-size: 0px;
+}
+.page-footer-button {
+  font-size: 20px;
+  width: 160px;
+  height: 60px;
+  background-color: white;
+  color: #626262;
+  margin: 60px 0px;
+}
+.page-footer-one {
+  text-align: center;
+}
+.page-main-section:nth-child(n + 5) {
+  margin-bottom: 0px;
+}

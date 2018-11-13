@@ -20,6 +20,7 @@ img {
 }
 .container {
   width: 900px;
+  margin: 0 auto;
 }
 .page-nav {
   padding: 80px 0;
@@ -29,6 +30,7 @@ img {
   margin: 0px;
   text-align: center;
   vertical-align: middle;
+  font-size: 0;
 }
 .site-navigation li {
   display: inline-block;
@@ -41,12 +43,16 @@ img {
   color: #46c0f7;
 }
 .list-item {
+  display: block;
   text-decoration: none;
   color: #626262;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .commentPhoto {
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
 }
 .page-main-section {
   width: 420px;
@@ -66,17 +72,44 @@ img {
 .page-main {
   font-size: 0px;
 }
-.page-footer-button {
+.page-button {
   font-size: 20px;
   width: 160px;
   height: 60px;
   background-color: white;
   color: #626262;
-  margin: 60px 0px;
+  margin-top: 60px;
 }
-.page-footer-one {
+.page-one {
   text-align: center;
 }
 .page-main-section:nth-child(n + 5) {
   margin-bottom: 0px;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.page-image {
+  margin-bottom: 30px;
+}
+.commentPhotoSecond {
+  margin: 0;
+  margin-bottom: 40px;
+}
+.commentPhotoLast {
+  margin: 0;
+}
+.page-main-list {
+  padding: 0;
 }

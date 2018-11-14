@@ -78,7 +78,9 @@ img {
   height: 60px;
   background-color: white;
   color: #626262;
+  margin: 0 auto;
   margin-top: 60px;
+  display: block;
 }
 .page-one {
   text-align: center;
@@ -107,7 +109,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 40px;
 }
-.commentPhotoLast {
+.page-text {
   margin: 0;
 }
 .page-main-list {
